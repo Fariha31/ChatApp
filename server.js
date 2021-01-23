@@ -15,7 +15,7 @@ mongoose.connection.once("open", () => {
 });
 
 //Bring in the models
-require("./models/user.js");
+require("./models/User");
 require("./models/Chatroom");
 require("./models/Message");
 
